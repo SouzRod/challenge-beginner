@@ -17,7 +17,7 @@ services:
     ports:
       - 5432:5432
     volumes:
-      - postgresData:/var/lib/postgresql/data
+      - postgresData:/var/lib/postgresql
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
@@ -49,10 +49,7 @@ services:
     ports:
       - 3001:3001
     environment:
-      POSTGRES_HOST: postgres
-      POSTGRES_PORT: 5432
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: microservices
     depends_on:
       - postgres

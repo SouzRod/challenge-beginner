@@ -1,0 +1,9 @@
+com/github/lisafelixs/bfb_ms_technical/controller/TechnicalController.class
+com/github/lisafelixs/bfb_ms_technical/db/repository/TechnicalRepository.class
+com/github/lisafelixs/bfb_ms_technical/BfbMsTechnicalApplication.class
+com/github/lisafelixs/bfb_ms_technical/dto/ApiResponse$ApiResponseBuilder.class
+com/github/lisafelixs/bfb_ms_technical/dto/ApiResponse.class
+com/github/lisafelixs/bfb_ms_technical/db/model/Technical.class
+com/github/lisafelixs/bfb_ms_technical/dto/TechnicalResponseDTO.class
+com/github/lisafelixs/bfb_ms_technical/service/TechnicalService.class
+com/github/lisafelixs/bfb_ms_technical/service/impl/TechnicalServiceImpl.class

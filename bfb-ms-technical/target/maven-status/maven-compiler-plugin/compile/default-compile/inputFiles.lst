@@ -1,0 +1,8 @@
+/home/rodrigo/projects/challenge-doug/bfb-ms-technical/src/main/java/com/github/lisafelixs/bfb_ms_technical/BfbMsTechnicalApplication.java
+/home/rodrigo/projects/challenge-doug/bfb-ms-technical/src/main/java/com/github/lisafelixs/bfb_ms_technical/controller/TechnicalController.java
+/home/rodrigo/projects/challenge-doug/bfb-ms-technical/src/main/java/com/github/lisafelixs/bfb_ms_technical/db/model/Technical.java
+/home/rodrigo/projects/challenge-doug/bfb-ms-technical/src/main/java/com/github/lisafelixs/bfb_ms_technical/db/repository/TechnicalRepository.java
+/home/rodrigo/projects/challenge-doug/bfb-ms-technical/src/main/java/com/github/lisafelixs/bfb_ms_technical/dto/ApiResponse.java
+/home/rodrigo/projects/challenge-doug/bfb-ms-technical/src/main/java/com/github/lisafelixs/bfb_ms_technical/dto/TechnicalResponseDTO.java
+/home/rodrigo/projects/challenge-doug/bfb-ms-technical/src/main/java/com/github/lisafelixs/bfb_ms_technical/service/TechnicalService.java
+/home/rodrigo/projects/challenge-doug/bfb-ms-technical/src/main/java/com/github/lisafelixs/bfb_ms_technical/service/impl/TechnicalServiceImpl.java
