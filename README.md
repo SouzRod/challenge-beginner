@@ -134,7 +134,7 @@ curl http://localhost:3002/api/bfbmssignature/v1/signature/:id
 ```bash
 docker compose up --build
 ```
-2.1 para parar o projeto basta executar:
+  - 2.1 para parar o projeto basta executar:
 
 ```bash
 docker compose down
