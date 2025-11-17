@@ -186,10 +186,11 @@ Dados que devem ser vinculados:
 - id do técnico
 - nome do técnico
 - email do técnico
+- telefone do técnico (ddd + numero de telefone)
 - id do cliente
 - nome do cliente
 - email do cliente
-- telefone do cliente
+- telefone do cliente (ddd + numero de telefone)
 
 se a assinatura não existir retornar o seguinte payload:
 ```json
