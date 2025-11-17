@@ -134,8 +134,15 @@ curl http://localhost:3002/api/bfbmssignature/v1/signature/:id
 ```bash
 docker compose up --build
 ```
+para parar o projeto basta executar:
 
-3. Após a inicialização, acesse:
+```bash
+docker compose down
+```
+
+3. Preencha os bancos de dados com os comandos que estão na pasta `db-commands`.
+
+4. Após a inicialização, acesse:
 
 - http://localhost:3001/api/bfbmstechnical/v1/technical/:id  
 - http://localhost:3002/api/bfbmssignature/v1/signature/:id  
