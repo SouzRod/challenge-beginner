@@ -14,6 +14,9 @@ Ambos os serviços utilizam bancos distintos (PostgreSQL e MongoDB) e são orque
 /
 ├── bfb-ms-technical/      # Serviço Java + Spring Boot
 ├── bfb-ms-signature/      # Serviço NodeJS + Fastify
+├── db-commands/
+│   ├── mongo/
+│   └── sql/
 ├── docker-compose.yml
 └── README.md
 ```
