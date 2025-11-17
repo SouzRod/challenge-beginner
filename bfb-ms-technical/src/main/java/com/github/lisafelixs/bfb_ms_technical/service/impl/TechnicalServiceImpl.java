@@ -5,6 +5,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 
 import com.github.lisafelixs.bfb_ms_technical.db.model.Technical;
 import com.github.lisafelixs.bfb_ms_technical.db.repository.TechnicalRepository;
@@ -12,6 +13,7 @@ import com.github.lisafelixs.bfb_ms_technical.dto.ApiResponse;
 import com.github.lisafelixs.bfb_ms_technical.dto.TechnicalResponseDTO;
 import com.github.lisafelixs.bfb_ms_technical.service.TechnicalService;
 
+@Service
 public class TechnicalServiceImpl implements TechnicalService {
 
     @Autowired
