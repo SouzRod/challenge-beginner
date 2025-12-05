@@ -232,8 +232,8 @@ se o técnico não estiver ativo retornar o seguinte payload:
 se a assinatura já estiver vinculada a um técnico retornar o seguinte payload:
 ```json
   {
-    "status": 400,
-    "error": "Bad Request",
+    "status": 409,
+    "error": "Conflict",
     "message": "Signature already linked to technical"
   }
 ```
@@ -241,7 +241,7 @@ se a assinatura já estiver vinculada a um técnico retornar o seguinte payload:
 se estiver tudo ok retornar o seguinte payload:
 ```json
   {
-    "status": 200,
+    "status": 201,
     "message": "Signature linked to technical"
   }
 ```

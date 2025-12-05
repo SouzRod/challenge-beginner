@@ -67,6 +67,14 @@ Se não encontrar o técnico retornar erro de acordo. </br>
 Se não encontrar o endereço retornar erro de acordo. </br>
 Se estiverem tentando salvar um endereço em um técnico que já foi salvo retornar erro de acordo. </br>
 
+se estiver tudo ok retornar o seguinte payload:
+```json
+  {
+    "status": 201,
+    "message": "Address successfully registered!"
+  }
+```
+
 
 ## Rota para alterar endereço do técnico
 
@@ -77,9 +85,25 @@ Com base no CEP, pegar o endereço dele e alterar os dados no banco.
 Se não encontrar o técnico retornar erro de acordo. </br>
 Se não encontrar o endereço retornar erro de acordo. </br>
 
+se estiver tudo ok retornar o seguinte payload:
+```json
+  {
+    "status": 200,
+    "message": "Address successfully upadted!"
+  }
+```
+
 ## Rota para deletar endereço do técnico
 
 Crie uma rota que receba o ID do técnico e delete ele do banco
+
+se estiver tudo ok retornar o seguinte payload:
+```json
+  {
+    "status": 200,
+    "message": "Address successfully deleted!"
+  }
+```
 
 
 ## Rota que traga os dados do técnico que mais atendeu chamados
